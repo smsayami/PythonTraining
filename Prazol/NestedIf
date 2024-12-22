@@ -1,0 +1,41 @@
+# Executes a block of code if a condition is True.
+
+x =10
+if x>5:
+    if x<15: 
+        print("x is between 5 and 15")
+
+# Executes one block of code if a condition is True, and another if it is False.
+
+        x = 20
+if x > 15:
+	print("x is greater than 15")
+else:
+	print("x is less than or equal to 15")
+
+# if-elif-else Statement
+# Checks multiple conditions. Once a True condition is found, it executes the corresponding block and skips the rest.
+
+x = 10
+if x > 15:
+	print("x is greater than 15")
+elif x == 10:
+	print("x is equal to 10")
+else:
+	print("x is less than 10")
+
+# NESTED IF STATEMENT
+# An if statement inside another if statement
+
+x = 10
+if x > 5:
+	if x < 15:
+		print("x is between 5 and 15")
+
+# Single-Line if Statement
+# You can write simple conditional logic in a single line
+
+x = 4
+if x > 5: print("x is greater than 5")
+else:
+    print("x is less than 5")
